@@ -1,0 +1,91 @@
+
+/*HEADER*/
+
+header{
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+
+nav{
+    color:white;
+}
+
+/*LOGO*/
+
+.logo{
+    width:433px;
+    height:105px;
+    float: left;
+}
+
+.logo > p{
+    color:white;
+    display:inline-block;
+    font-size: 32px;
+    width: 198.24px;
+}
+
+.logo > img{
+    width: 79.5px;
+    height: 77px;
+}
+
+/*CATEGORIAS*/
+
+ul{
+    display: inline-block;
+    text-align: center;
+}
+
+li{
+    display:inline;
+    vertical-align: center;
+    line-height: 105px;
+    padding: 40px;
+}
+
+li > a{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+/*PORTADA*/
+
+/*BODY*/
+
+body {
+    background-color:#630000;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*CAJAS DE TEXTO*/
+
+.cajaTexto {
+    background-color:#D8B6A4;
+    display:inline-block;
+    margin: 1em;
+}
+
+.cajaTexto > .cajaTexto__contenido > img {
+    float:left
+}
+
+.cajaTexto > p {
+    display:inline-block;
+}
+
+.cajaTexto > .cajaTexto__contenido > img {
+    width: 514px;
+    height: 440px;
+    float: left;
+}
+
+.cajaTexto > .cajaTexto__contenido > .derecha {
+    width: 514px;
+    height: 440px;
+    float: right;
