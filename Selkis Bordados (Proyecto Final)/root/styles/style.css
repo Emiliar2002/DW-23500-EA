@@ -1,3 +1,11 @@
+/*FUENTE*/
+
+@font-face {
+    font-family: Needlework Perfect;
+    src: url(Needlework-Perfect.otf);
+}
+
+
 
 /*HEADER*/
 
@@ -20,10 +28,11 @@ nav{
 }
 
 .logo > p{
-    color:white;
+    color:#FFFFFF;
     display:inline-block;
     font-size: 32px;
     width: 198.24px;
+    font-family: Needlework Perfect;
 }
 
 .logo > img{
@@ -54,9 +63,24 @@ li > a{
 
 /*PORTADA*/
 
+.portada{
+    text-align: center;
+    font-family: Needlework Perfect;
+}
+
+.portada__pedir{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color:black;
+    font-size: 72px;
+}
+
 /*BODY*/
 
-body {
+body{
     background-color:#630000;
     margin: 0px;
     padding: 0px;
@@ -65,27 +89,53 @@ body {
 
 /*CAJAS DE TEXTO*/
 
+h3{
+    font-family: Needlework Perfect;
+    color: black;
+}
+
 .cajaTexto {
     background-color:#D8B6A4;
     display:inline-block;
     margin: 1em;
+    border-radius: 25px;
+}
+
+.cajaTexto > .cajaTexto__contenido{
+    padding: 30px;
+    display: inline-block;
+}
+
+.cajaTexto > .cajaTexto__contenido > span{
+    left:30px;
+    position:relative
+}
+
+.cajaTexto > .cajaTexto__contenidoDerecha{
+    padding: 30px;
+    display: inline-block;
 }
 
 .cajaTexto > .cajaTexto__contenido > img {
-    float:left
-}
-
-.cajaTexto > p {
-    display:inline-block;
-}
-
-.cajaTexto > .cajaTexto__contenido > img {
+    float:left;
+    border-radius: 25px;
     width: 514px;
     height: 440px;
-    float: left;
 }
 
-.cajaTexto > .cajaTexto__contenido > .derecha {
+
+
+.cajaTexto > .cajaTexto__contenidoDerecha > .derecha {
+    float:right;
+    border-radius: 25px;
     width: 514px;
     height: 440px;
-    float: right;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    background-color: black;
+    color: white;
