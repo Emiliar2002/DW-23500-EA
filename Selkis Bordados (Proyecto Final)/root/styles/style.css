@@ -203,6 +203,15 @@ h3{
     width: 95%;
     margin: 25px;
     font-size: 25px;
+    text-align: center;
+}
+
+.cajaGaleria > .cajaGaleria__imagen {
+    border: 5px solid;
+    display: inline-block;
+    margin: 40px;
+    width: 200px;
+    height: 200px;
 }
 
 .cajaGaleria > .cajaGaleria__categoria {
@@ -210,13 +219,13 @@ h3{
     display:inline-block;
     border-radius: 25px;
     margin: 10px;
+    text-decoration: none;
 }
 
-.cajaGaleria > .cajaGaleria__categoria a {
+.cajaGaleria > .cajaGaleria__categoria p {
     display: block;
     font-family: Needlework Perfect;
     font-size: 36px;
-    text-decoration: none;
     color: black;
 }
 
@@ -256,7 +265,12 @@ h3{
     margin: 25px;
 }
 
-.cajaRedes img{
+.cajaRedes > .cajaRedes__red{
+    display:inline-block;
+    padding: 30px;
+}
+
+.cajaRedes > .cajaRedes__red img{
     display:inline-block;
     width: 100px;
     height: 100px;
