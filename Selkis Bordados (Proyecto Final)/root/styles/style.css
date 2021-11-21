@@ -14,6 +14,21 @@ p{
     font-family: Sansation Regular;
 }
 
+
+/*ICONO DE WHATSAPP*/
+
+.whatsappFlotante{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin:30px
+}
+
+.whatsappFlotante > .whatsappFlotante__icono{
+    width: 60px;
+    height: 60px;
+}
+
 /*HEADER*/
 
 header{
@@ -159,6 +174,14 @@ h3{
     margin: 25px;
 }
 
+.cajaTexto > iframe{
+    float: left;
+    height: 440px;
+    width: 514px;
+    border-radius: 25px;
+    margin: 25px;
+}
+
 .cajaTextoDerecha > .derecha{
     float: right;
     height: 440px;
@@ -221,6 +244,22 @@ h3{
 
 .cajaTexto > .cajaTexto__formulario > #mensaje{
     height: 200px;
+}
+
+/*CAJA REDES*/
+
+.cajaRedes{
+    background-color:#D8B6A4;
+    display:inline-block;
+    border-radius: 25px;
+    width: 95%;
+    margin: 25px;
+}
+
+.cajaRedes img{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
 }
 
 /*FOOTER*/
