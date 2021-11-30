@@ -126,38 +126,19 @@ li > a{
 
 
 
-.portada > .portada__pedir{
+.portada__pedir{
     text-decoration: none;
     background-color: black;
     color: white;
     display: inline-block;
-    top:100%;
-    left:50%;
-    transform: translate(-50%, -100%);
-    position:absolute;
-    border-radius: 25px;
-    padding: 10px;
-}
-
-.portada > .portada__pedir > a > h2{
-    padding:9px;
-    font-size: 36px;
-    text-decoration: none;
-    color:white;
-}
-
-
-
-h1{
-    color:black;
-    font-size: 72px;
-    position:absolute;
-    top:50%;
+    top:70%;
     left:50%;
     transform: translate(-50%, -50%);
-    display:inline-block;
+    position:absolute;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 10px;
 }
-
 /*BODY*/
 
 body{
