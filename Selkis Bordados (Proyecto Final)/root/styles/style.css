@@ -33,45 +33,23 @@ p{
 
 header{
     background-color: black;
-    display: block;
-    width: 100%;
+    display: flex;
 }
 
 nav{
     color:white;
-}
-
-/*LOGO*/
-
-.logo{
-    width:433px;
-    height:105px;
-    float: left;
-}
-
-.logo > p{
-    color:#FFFFFF;
-    display:inline-block;
-    font-size: 32px;
-    width: 198.24px;
-    font-family: Needlework Perfect;
-}
-
-.logo > img{
-    width: 79.5px;
-    height: 77px;
+    display: flex;
 }
 
 /*CATEGORIAS*/
 
 ul{
-    display: inline-block;
-    text-align: center;
+    display: inline-flex;
+    justify-content: center;
 }
 
 li{
-    display:inline-block;
-    vertical-align: center;
+    display:inline-flex;
     padding: 30px;
 }
 
@@ -81,6 +59,59 @@ li > a{
     font-weight: bold;
     color: white;
 }
+
+
+/*LOGO*/
+
+.logo{
+    float: left;
+}
+
+.logo > p{
+    color:#FFFFFF;
+    display:inline-block;
+    font-size: 32px;
+    width: 198.24px;
+    font-family: Needlework Perfect;
+    padding-left: 1rem;
+}
+
+@media (max-width: 1371px){
+    .logo > img{
+        display: none;
+    }
+}
+
+.logo > img{
+    width: 79.5px;
+    height: 77px;
+
+}
+
+#hamburguesa{
+    display: none;
+    width: 30px;
+    height: 50px;
+    float: left;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+@media (max-width: 1141px){
+    .logo p{
+        display: none;
+    }
+}
+
+@media (max-width: 833px){
+    ul{
+        display: none;
+    }
+    #hamburguesa{
+        display: inline-flex;
+    }
+}
+
 
 /*PORTADA*/
 
@@ -93,7 +124,10 @@ li > a{
     width: 100%;
 }
 
+
+
 .portada > .portada__pedir{
+    text-decoration: none;
     background-color: black;
     color: white;
     display: inline-block;
@@ -102,10 +136,7 @@ li > a{
     transform: translate(-50%, -100%);
     position:absolute;
     border-radius: 25px;
-}
-
-.portada > .portada__pedir > a{
-    text-decoration: none;
+    padding: 10px;
 }
 
 .portada > .portada__pedir > a > h2{
@@ -114,6 +145,8 @@ li > a{
     text-decoration: none;
     color:white;
 }
+
+
 
 h1{
     color:black;
@@ -147,9 +180,17 @@ h3{
 }
 
 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+
 .cajaTexto {
     background-color:#D8B6A4;
-    display:inline-block;
     border-radius: 25px;
     width: 95%;
     text-align: left;
@@ -159,7 +200,6 @@ h3{
 
 .cajaTextoDerecha {
     background-color:#D8B6A4;
-    display:inline-block;
     border-radius: 25px;
     width: 95%;
     text-align: left;
