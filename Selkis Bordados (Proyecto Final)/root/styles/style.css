@@ -157,7 +157,7 @@ section{
 h3{
     font-family: Needlework Perfect;
     color: black;
-    font-size:48px;
+    font-size: 48px;
 }
 
 
@@ -174,26 +174,30 @@ section{
     background-color:#D8B6A4;
     border-radius: 25px;
     width: 95%;
-    text-align: left;
-    margin: 25px;
+    margin: 2rem;
     font-size: 25px;
+    display: flex;
+    align-items:center;
 }
 
-.cajaTextoDerecha {
-    background-color:#D8B6A4;
-    border-radius: 25px;
-    width: 95%;
+.cajaTexto__texto{
     text-align: left;
-    font-size: 25px;
+}
+
+.cajaTexto__textoDerecha{
+    text-align: left;
+    margin-left: 1rem;
 }
 
 .cajaTexto > img{
-    float: left;
-    height: 440px;
-    width: 514px;
+    height: auto;
     border-radius: 25px;
-    margin: 25px;
+    margin: 1rem;
+    max-width: 514px;
+    width: 50%;
 }
+
+
 
 .cajaTexto > iframe{
     float: left;
@@ -202,27 +206,13 @@ section{
     border-radius: 25px;
     margin: 25px;
 }
-
-.cajaTextoDerecha > .derecha{
-    float: right;
-    height: 440px;
-    width: 514px;
-    border-radius: 25px;
-    margin: 25px;
-}
-
-.cajaTextoDerecha > .cajaTextoDerecha__textoDerecha{
-    margin-left: 25px;
-}
-
 /*GALERIA*/
 
 .cajaGaleria {
     background-color:#D8B6A4;
-    display:inline-block;
     border-radius: 25px;
     width: 95%;
-    margin: 25px;
+    margin: 2rem;
     font-size: 25px;
     text-align: center;
 }
@@ -230,9 +220,10 @@ section{
 .cajaGaleria > .cajaGaleria__imagen {
     border: 5px solid;
     display: inline-block;
-    margin: 40px;
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    width: 100%;
+    max-height: 200px;
+    max-width: 200px;
 }
 
 .cajaGaleria > .cajaGaleria__categoria {
@@ -273,7 +264,7 @@ section{
 }
 
 .cajaTexto > .cajaTexto__formulario > #mensaje{
-    height: 200px;
+    height: 2rem;
 }
 
 /*CAJA REDES*/
