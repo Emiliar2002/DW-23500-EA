@@ -205,7 +205,6 @@ section{
 
 .cajaGaleria__categoria {
     background-color:#EEEBDD;
-    display:inline-block;
     border-radius: 25px;
     text-decoration: none;
 }
@@ -228,7 +227,6 @@ section{
 /*FORMULARIO*/
 
 .cajaTexto__input{
-    display: inline-block;
     width: 90%;
     padding: 5px;
     margin: 5px;
@@ -245,23 +243,19 @@ section{
 /*CAJA REDES*/
 
 .cajaRedes{
+    margin: 1rem;
     background-color:#D8B6A4;
     display:flex;
     flex-direction: column;
     border-radius: 25px;
     width: 95%;
-    margin: 25px;
 }
 
 .cajaRedes__redes{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     justify-items: center;
-}
-
-.cajaRedes__red{
-    display:inline-block;
-    padding: 30px;
+    flex-wrap: wrap;
 }
 
 .cajaRedes__red img{
