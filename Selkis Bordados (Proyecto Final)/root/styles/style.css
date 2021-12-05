@@ -171,8 +171,10 @@ section{
     background-color:#D8B6A4;
     border-radius: 25px;
     width: 95%;
-    margin: 2rem;
     font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
 }
 
 .cajaGaleria__imagenes{
@@ -196,18 +198,19 @@ section{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 1rem;
 }
 
 .cajaGaleria__categoria {
     background-color:#EEEBDD;
     display:inline-block;
     border-radius: 25px;
-    margin: 10px;
     text-decoration: none;
 }
 
 .cajaGaleria__categoria p {
-    display: block;
     font-family: Needlework Perfect;
     font-size: 36px;
     color: black;
@@ -270,10 +273,11 @@ section{
 /*FOOTER*/
 
 footer {
+    display: flex;
     background-color: black;
     color: white;
-    text-align: center;
-    padding: 5px;
+    justify-content: center;
+    padding: 2vh;
     font-weight: bold;
     font-size:18px
 }
