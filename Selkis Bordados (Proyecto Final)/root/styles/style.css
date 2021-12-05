@@ -31,14 +31,11 @@ p{
 
 /*HEADER*/
 
-header{
-    background-color: black;
-    display: flex;
-}
-
 nav{
     color:white;
-    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "logo vacio categorias";
 }
 
 /*CATEGORIAS*/
@@ -46,6 +43,7 @@ nav{
 ul{
     display: inline-flex;
     justify-content: center;
+    grid-area: categorias;
 }
 
 li{
