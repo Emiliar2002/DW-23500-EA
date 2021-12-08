@@ -1,2 +1,2 @@
 # DW-23500-EA
-un gran proyecto sobre todo
+un proyecto para un curso de diseño web.
