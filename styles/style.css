@@ -59,6 +59,10 @@ li > a{
     color: white;
 }
 
+li > a:hover{
+    text-decoration: underline white;
+}
+
 
 /*LOGO*/
 
@@ -91,8 +95,6 @@ li > a{
 .portada > img{
     width: 100%;
 }
-
-
 
 .portada__pedir{
     text-decoration: none;
@@ -166,7 +168,7 @@ section{
 }
 /*GALERIA*/
 
-.cajaGaleria {
+.cajaGaleria{
     background-color:#D8B6A4;
     border-radius: 25px;
     width: 95%;
@@ -184,7 +186,7 @@ section{
     margin: 3rem; 
 }
 
-.cajaGaleria__imagen {
+.cajaGaleria__imagen{
     border: 5px solid;
     max-width: 200px;
     width: 100%;
@@ -202,13 +204,18 @@ section{
     padding: 1rem;
 }
 
-.cajaGaleria__categoria {
+.cajaGaleria__categoria{
     background-color:#EEEBDD;
     border-radius: 25px;
     text-decoration: none;
+    transition: 1s;
 }
 
-.cajaGaleria__categoria p {
+.cajaGaleria__categoria:hover{
+    filter: brightness(60%);
+}
+
+.cajaGaleria__categoria p{
     font-family: Needlework Perfect;
     font-size: 36px;
     color: black;
