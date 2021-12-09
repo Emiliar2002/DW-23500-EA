@@ -59,6 +59,10 @@ li > a{
     color: white;
 }
 
+li > a:hover{
+    text-decoration: underline white;
+}
+
 
 /*LOGO*/
 
