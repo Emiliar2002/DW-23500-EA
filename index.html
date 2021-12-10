@@ -20,12 +20,109 @@
             <a class="navbar-brand" href="#"><img src="./images/selkis pajaro.png" width="30" height="30">SELKIS BORDADOS</a>
             <a class="nav-link disabled" href="#">Inicio</a>
             <a class="nav-link" href="#">Quienes somos</a>
-            <a class="nav-link" href="#">Galeria</a>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Galeria
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Gorras</a>
+                  <a class="dropdown-item" href="#">Egresados</a>
+                  <a class="dropdown-item" href="#">Tapabocas</a>
+                </div>
+            </div>
             <a class="nav-link" href="#">Contacto</a>
         </nav>
         <main class="main">
             <section class="section">
-                <p>asdasd</p>
+                <div class="card border-0">
+                    <img src="images/portada.jpg" class="w-100 card-img">
+                    <div class="card-img-overlay d-flex">
+                        <a id="pedir" class="card-title align-self-center mx-auto text-white">PEDI TU BORDADO AHORA<a>
+                    </div>
+                </div>
+
+                <div class="card-deck">
+                    <div class="card border-dark mb-3">
+                      <img class="card-img-top" src="images/egresaditos.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">QUIENES SOMOS</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ipsa nulla voluptates nam quam voluptatum numquam culpa facilis sunt iusto similique soluta provident quis, maiores accusamus eius ullam ducimus eum!</p>
+                      </div>
+                    </div>
+                    <div class="card border-dark mb-3">
+                      <img class="card-img-top" src="images/egresaditos2.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">NUESTROS SERVICIOS</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At voluptate maiores dolor perspiciatis unde illo deserunt repellat, maxime explicabo eligendi quas. Nam facilis ipsum sed tempora error maxime quasi obcaecati?</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <h2 class="text-center">NUESTROS TRABAJOS</h2>
+
+                  <div class="card-group">
+                    <div class="card">
+                      <img class="card-img-top" src="images/gorra.jpg" height="320px" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Gorras</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fugit eius autem qui itaque excepturi minima ab labore fuga pariatur repudiandae magni ea, numquam ad, nemo sed ipsam sequi provident.</p>
+                        <a class="btn btn-primary" href="#" role="button">Ver</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="images/egresados.jpg" height="320px" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Egresados</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fugit eius autem qui itaque excepturi minima ab labore fuga pariatur repudiandae magni ea, numquam ad, nemo sed ipsam sequi provident.</p>
+                        <a class="btn btn-primary" href="#" role="button">Ver</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="images/tapabocas.jpg" height="320px" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Tapabocas</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fugit eius autem qui itaque excepturi minima ab labore fuga pariatur repudiandae magni ea, numquam ad, nemo sed ipsam sequi provident.</p>
+                        <a class="btn btn-primary" href="#" role="button">Ver</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/merchandising2.jpg" height="320px" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Merchandising</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fugit eius autem qui itaque excepturi minima ab labore fuga pariatur repudiandae magni ea, numquam ad, nemo sed ipsam sequi provident.</p>
+                          <a class="btn btn-primary" href="#" role="button">Ver</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/remeras2.jpeg" height="320px" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Remeras</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fugit eius autem qui itaque excepturi minima ab labore fuga pariatur repudiandae magni ea, numquam ad, nemo sed ipsam sequi provident.</p>
+                          <a class="btn btn-primary" href="#" role="button">Ver</a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <h2 class="text-center">CONTACTANOS</h2>
+
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Correo</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tu correo...">
+                  <label for="asunto">Asunto</label>
+                  <input class="form-control" id="asunto" type="text" placeholder="Asunto...">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Mensaje</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>  
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Adjuntar archivo</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                  </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+
             </section>
         </main>
 
