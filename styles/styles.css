@@ -10,7 +10,8 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    margin:30px
+    margin:30px;
+    z-index: 100;
 }
 
 .whatsappFlotante > .whatsappFlotante__icono{
@@ -82,6 +83,10 @@ h2{
 
 .card{
     background-color:#D8B6A4;
+}
+
+#ubicacion{
+    margin: 2rem;
 }
 
 form{
