@@ -92,7 +92,7 @@ h2{
 form{
     background-color:#D8B6A4;
     padding: 1rem;
-    margin: 1rem;
+    margin: 2rem;
     border-radius: 5px;
 }
 
@@ -100,4 +100,19 @@ footer{
     background-color: black;
     padding: 2vh;
     color: white;
+}
+
+#red{
+    padding: 1rem;
+}
+
+.carousel-inner{
+    background-color: #D8B6A4;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.d-block{
+    max-height: 500px;
+    object-fit: contain;
 }
