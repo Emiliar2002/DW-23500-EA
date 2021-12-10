@@ -1,3 +1,10 @@
+/*FUENTES*/
+
+@font-face {
+    font-family: Needlework Perfect;
+    src: url(Needlework-Perfect.otf);
+}
+
 body{
     background-color:#630000;
 }
@@ -7,8 +14,22 @@ nav{
     padding: 1rem;
 }
 
+.navbar-brand{
+    font-family: "Needlework Perfect";
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    font-size: 26px;
+}
+
+.navbar-brand:hover{
+    color: gray;
+}
+
 .nav-link{
     color: white;
+    transition: 0.3s;
+    font-size: 20px;
 }
 
 .nav-link:hover{
@@ -28,15 +49,22 @@ nav{
     font-size: 30px;
     padding: 10px;
     background-color: black;
+    font-family: "Needlework Perfect";
 }
 
 .card-deck{
     margin: 1em;
 }
 
+.card-group{
+    margin: 1rem;
+}
+
 h2{
-    color:black;
+    color:white;
     margin: 1em;
+    font-family: "Needlework Perfect";
+    font-size: 50px;
 }
 
 .card{
@@ -48,4 +76,10 @@ form{
     padding: 1rem;
     margin: 1rem;
     border-radius: 5px;
+}
+
+footer{
+    background-color: black;
+    padding: 2vh;
+    color: white;
 }
