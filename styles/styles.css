@@ -5,6 +5,19 @@
     src: url(Needlework-Perfect.otf);
 }
 
+
+.whatsappFlotante{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin:30px
+}
+
+.whatsappFlotante > .whatsappFlotante__icono{
+    width: 60px;
+    height: 60px;
+}
+
 body{
     background-color:#630000;
 }
