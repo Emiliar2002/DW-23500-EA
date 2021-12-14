@@ -1,101 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>Inicio</title>
-</head>
+  </head>
 
-<body>
- 
-<!----------------------- ICONO DE WHATSAPP ----------------------->    
 
-<a class="whatsappFlotante" href="https://api.whatsapp.com/send/?phone=%2B541136086320&text=Hola%2C+quisiera+consultar+por+un+bordado+o+un+servicio.&app_absent=0" target="blank"><img class="whatsappFlotante__icono" src="images/whatsapp-icono-verde.png"></a>
-
-<!----------------------- HEADER ----------------------->
-    <header>
-        <nav>
-        <a href="index.html"><div class="logo"><img src="images/selkis pajaro.png"> <p>SELKIS BORDADOS</p></div></a>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/quienessomos.html">Quienes somos</a></li>
-                    <li><a href="pages/bordados.html">Bordados</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
-                </ul>
+    <body class="body">
+        <a class="whatsappFlotante" href="https://api.whatsapp.com/send/?phone=%2B541136086320&text=Hola%2C+quisiera+consultar+por+un+bordado+o+un+servicio.&app_absent=0" target="blank"><img class="whatsappFlotante__icono" src="images/whatsapp-icono-verde.png"></a>        
+        <nav class="nav">
+            <a class="navbar-brand" href="./index.html"><img src="./images/selkis pajaro.png" width="65" height="45">SELKIS BORDADOS</a>
+            <a class="nav-link disabled" href="./index.html">Inicio</a>
+            <a class="nav-link" href="./pages/quienessomos.html">Quienes somos</a>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Galeria
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="./pages/gorras.html">Gorras</a>
+                  <a class="dropdown-item" href="./pages/egresados.html">Egresados</a>
+                  <a class="dropdown-item" href="./pages/tapabocas.html">Tapabocas</a>
+                  <a class="dropdown-item" href="./pages/merchandising.html">Merchandising</a>
+                  <a class="dropdown-item" href="./pages/remeras.html">Remeras</a>
+                </div>
+            </div>
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
         </nav>
-    </header>
-
-    <main>
-                    <!----------------------- PORTADA ----------------------->
-                <div class="portada">
-                    <img src="images/portada.jpg">
-                    <a href="pages/contacto.html" class="portada__pedir"><h1>PEDI TU BORDADO AHORA</h1></a></div>                 
-                </div>
-        </div>        
-        <section>     
-
-                <div class="cajaTexto">
-                        <img class="responsiveimg" src="images/egresaditos.png">
-                        <div class="cajaTexto__texto">
-                            <h3>QUIENES SOMOS</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo cumque consequuntur perferendis itaque! Assumenda asperiores totam sunt voluptatum. Repellendus veniam soluta distinctio recusandae optio eaque maiores totam eius officia inventore?</p>
-                        </div>
-                </div>      
-
-
-                <div class="cajaTexto">
-
-                        <div class="cajaTexto__textoDerecha">
-                            <h3>NUESTROS SERVICIOS</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo cumque consequuntur perferendis itaque! Assumenda asperiores totam sunt voluptatum. Repellendus veniam soluta distinctio recusandae optio eaque maiores totam eius officia inventore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem qui eos sed ratione ipsa blanditiis autem natus. Animi aliquam repellendus odit, similique qui est enim obcaecati repellat doloremque sequi assumenda!</p>
-                        </div>
-                        <img class="responsiveimg" src="images/egresaditos2.png">
-                </div>
-            
-            
-                <div class="cajaGaleria">
-                    <h3>NUESTROS TRABAJOS</h3>
-                    <div class="cajaGaleria__categorias">
-                    <a href="pages/galerias/gorras.html" class="cajaGaleria__categoria"><img src="./images/gorra.jpg"><p>Gorras</p></a>
-                    <a href="pages/galerias/egresados.html" class="cajaGaleria__categoria"><img src="./images/egresados.jpg"><p>Egresados</p></a>
-                    <a href="pages/galerias/tapabocas.html" class="cajaGaleria__categoria"><img src="./images/tapabocas.jpg"><p>Tapabocas</p></a>
-                    <a href="pages/galerias/merchandising.html" class="cajaGaleria__categoria"><img src="./images/merchandising.jpg"><p>Merchandising</p></a>
-                    <a href="pages/galerias/remeras.html" class="cajaGaleria__categoria"><img src="./images/remeras.jpg"><p>Remeras</p></a>
+        <main class="main">
+            <section class="section">
+                <div class="card border-0">
+                    <img src="images/portada.jpg" class="w-100 card-img">
+                    <div class="card-img-overlay d-flex">
+                        <a id="pedir" class="card-title align-self-center mx-auto text-white" href="./pages/contacto.html">PEDI TU BORDADO AHORA<a>
                     </div>
                 </div>
 
-                <div class="cajaTexto">
-                    <img class="responsiveimg" src="images/contactanos.jpg">
-                        <div class="cajaTexto__formulario">
-                        <h3>Contactanos</h3>
-                            <input type="email" class="cajaTexto__input" placeholder="Tu correo...">
-                            <input type="text" class="cajaTexto__input" placeholder="Asunto...">
-                            <input type="text" id="mensaje" class="cajaTexto__input" placeholder="Mensaje...">
-                            <input type="submit" id="submit" class="cajaTexto__input" value="Enviar">    
+                <div class="card-deck">
+                    <div class="card border-dark mb-3">
+                      <img class="card-img-top" src="images/egresaditos.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">QUIENES SOMOS</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ipsa nulla voluptates nam quam voluptatum numquam culpa facilis sunt iusto similique soluta provident quis, maiores accusamus eius ullam ducimus eum!</p>
+                      </div>
+                    </div>
+                    <div class="card border-dark mb-3">
+                      <img class="card-img-top" src="images/egresaditos2.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">NUESTROS SERVICIOS</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At voluptate maiores dolor perspiciatis unde illo deserunt repellat, maxime explicabo eligendi quas. Nam facilis ipsum sed tempora error maxime quasi obcaecati?</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <h2 class="text-center">NUESTROS TRABAJOS</h2>
+
+                  <div class="card-group">
+                    <div class="card">
+                      <img class="card-img-top" src="images/gorra.jpg" height="320px" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Gorras</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fugit eius autem qui itaque excepturi minima ab labore fuga pariatur repudiandae magni ea, numquam ad, nemo sed ipsam sequi provident.</p>
+                        <a class="btn btn-primary" href="./pages/gorras.html" role="button">Ver</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="images/egresados.jpg" height="320px" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Egresados</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fugit eius autem qui itaque excepturi minima ab labore fuga pariatur repudiandae magni ea, numquam ad, nemo sed ipsam sequi provident.</p>
+                        <a class="btn btn-primary" href="./pages/egresados.html" role="button">Ver</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="images/tapabocas.jpg" height="320px" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Tapabocas</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fugit eius autem qui itaque excepturi minima ab labore fuga pariatur repudiandae magni ea, numquam ad, nemo sed ipsam sequi provident.</p>
+                        <a class="btn btn-primary" href="./pages/tapabocas.html" role="button">Ver</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/merchandising2.jpg" height="320px" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Merchandising</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fugit eius autem qui itaque excepturi minima ab labore fuga pariatur repudiandae magni ea, numquam ad, nemo sed ipsam sequi provident.</p>
+                          <a class="btn btn-primary" href="./pages/merchandising.html" role="button">Ver</a>
                         </div>
-                    </div>                    
-                </div>    
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/remeras2.jpeg" height="320px" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Remeras</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fugit eius autem qui itaque excepturi minima ab labore fuga pariatur repudiandae magni ea, numquam ad, nemo sed ipsam sequi provident.</p>
+                          <a class="btn btn-primary" href="./pages/remeras.html" role="button">Ver</a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <h2 class="text-center">CONTACTANOS</h2>
 
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Correo</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tu correo...">
+                  <label for="asunto">Asunto</label>
+                  <input class="form-control" id="asunto" type="text" placeholder="Asunto...">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Mensaje</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>  
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Adjuntar archivo</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                  </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
 
+            </section>
+        </main>
+        <footer>
+            <p class="text-center align-self-center">Seklis Bordados - Powered by Emiliano Arancio - 2021</p>
+        </footer>
 
+    </body>
 
-                
-        </section>
-        
-        
-
-
-    </main>
-
-    <footer>
-        <p>Selkis Bordados - Powered by Emiliano Arancio - 2021</p>
-    </footer>
-
-</body>
-
-
-
-
+  
 </html>

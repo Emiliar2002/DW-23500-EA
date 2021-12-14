@@ -1,70 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>Quienes somos</title>
-</head>
+  </head>
 
-<a class="whatsappFlotante" href="https://api.whatsapp.com/send/?phone=%2B541136086320&text=Hola%2C+quisiera+consultar+por+un+bordado+o+un+servicio.&app_absent=0" target="blank"><img class="whatsappFlotante__icono" src="../images/whatsapp-icono-verde.png"></a>
 
-<body>
-    <header>
-        <nav>
-            <a href="../index.html"><div class="logo"><img src="../images/selkis pajaro.png"><p>SELKIS BORDADOS</p></div></a>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="quienessomos.html">Quienes somos</a></li>
-                    <li><a href="bordados.html">Bordados</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-        </nav>
-    </header>
+  <body class="body">
+    <a class="whatsappFlotante" href="https://api.whatsapp.com/send/?phone=%2B541136086320&text=Hola%2C+quisiera+consultar+por+un+bordado+o+un+servicio.&app_absent=0" target="blank"><img class="whatsappFlotante__icono" src="../images/whatsapp-icono-verde.png"></a>    
+    <nav class="nav">
+        <a class="navbar-brand" href="../index.html"><img src="../images/selkis pajaro.png" width="65" height="45">SELKIS BORDADOS</a>
+        <a class="nav-link" href="../index.html">Inicio</a>
+        <a class="nav-link disabled" href="./quienessomos.html">Quienes somos</a>
+        <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Galeria
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./gorras.html">Gorras</a>
+              <a class="dropdown-item" href="./egresados.html">Egresados</a>
+              <a class="dropdown-item" href="./tapabocas.html">Tapabocas</a>
+              <a class="dropdown-item" href="./merchandising.html">Merchandising</a>
+              <a class="dropdown-item" href="./remeras.html">Remeras</a>
+            </div>
+        </div>
+        <a class="nav-link" href="./contacto.html">Contacto</a>
+    </nav>
 
-    <main>
-        <section>
-            <div class="cajaTexto">
-                <img class="responsiveimg" src="../images/egresaditos.png">
-                <div class="cajaTexto__texto">
-                    <h3>QUIENES SOMOS</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo cumque consequuntur perferendis itaque! Assumenda asperiores totam sunt voluptatum. Repellendus veniam soluta distinctio recusandae optio eaque maiores totam eius officia inventore?</p>
+    <main class="main">
+      <section class="section">
+
+          <div class="card-deck">
+              <div class="card border-dark mb-3">
+                <img class="card-img-top" src="../images/egresaditos.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">QUIENES SOMOS</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ipsa nulla voluptates nam quam voluptatum numquam culpa facilis sunt iusto similique soluta provident quis, maiores accusamus eius ullam ducimus eum!</p>
                 </div>
+              </div>
+              <div class="card border-dark mb-3">
+                <img class="card-img-top" src="../images/egresaditos2.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">NUESTROS SERVICIOS</h5>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At voluptate maiores dolor perspiciatis unde illo deserunt repellat, maxime explicabo eligendi quas. Nam facilis ipsum sed tempora error maxime quasi obcaecati?</p>
+                </div>
+              </div>
             </div>
 
-            
-            <div class="cajaTexto">
-                <div class="cajaTexto__textoDerecha">
-                    <h3>POR QUE ELEGIR SELKIS</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo cumque consequuntur perferendis itaque! Assumenda asperiores totam sunt voluptatum. Repellendus veniam soluta distinctio recusandae optio eaque maiores totam eius officia inventore?</p>
-                </div>
-                <img class="responsiveimg" src="../images/racing.jpg" class="derecha">
+            <div class="card mb-3" id="ubicacion">
+              <iframe class="embed-responsive-item card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5589470935897!2d-58.52490408477004!3d-34.615312780456435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7dda3a016b9%3A0xb8186a7ccb1c527d!2sSelkis%20bordados!5e0!3m2!1ses-419!2sar!4v1637475951531!5m2!1ses-419!2sar" height="450"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">DONDE ESTAMOS</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi, asperiores officia dolores suscipit corrupti quis deserunt adipisci tenetur quibusdam id sint ex repudiandae repellendus non nihil omnis harum aliquid.</p>
+              </div>
             </div>
-            
-            
-            <div class="cajaTexto">
-                <iframe class="responsiveimg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5589470935897!2d-58.52490408477004!3d-34.615312780456435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7dda3a016b9%3A0xb8186a7ccb1c527d!2sSelkis%20bordados!5e0!3m2!1ses-419!2sar!4v1637475951531!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                <div class="cajaTexto__texto">
-                    <h3>DONDE ESTAMOS</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo cumque consequuntur perferendis itaque! Assumenda asperiores totam sunt voluptatum. Repellendus veniam soluta distinctio recusandae optio eaque maiores totam eius officia inventore?</p>
-                </div>
-            </div>
-            
-            
-        </section>
-        
-        <br>
-        
+          </section>
+        </main>
         <footer>
-            <p>Selkis Bordados - Powered by Emiliano Arancio - 2021</p>
+            <p class="text-center align-self-center">Seklis Bordados - Powered by Emiliano Arancio - 2021</p>
         </footer>
 
-    </main>
+    </body>
 
-</body>
-
-
-
-
+  
 </html>
