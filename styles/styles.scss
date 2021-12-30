@@ -119,6 +119,31 @@ body{
         margin: 1em;
     }
 
+
+    //ACHICAR TITULO Y BOTON DE PEDIR
+
+    @media (max-width: 560px){
+
+        h2{
+            @include needlework(25px)
+        }
+
+        #pedir{
+            @include needlework(12px)
+        }
+
+    }
+    @media (max-width: 246px){
+        h2{
+            @include needlework(13px)
+        }
+
+        #pedir{
+            @include needlework(6px)
+        }
+    }
+
+
     //FONDO DE LAS CARTAS
 
     .card{
