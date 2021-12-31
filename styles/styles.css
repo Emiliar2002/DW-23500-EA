@@ -58,11 +58,11 @@ body #pedir {
   font-family: "Needlework Perfect";
   font-size: 30px;
 }
-body .card-deck {
+body .card-deck, body .card-group {
   margin: 1em;
 }
 body .card-group {
-  margin: 1rem;
+  padding: 1rem;
 }
 @media (max-width: 896px) {
   body .navbar-brand, body .nav-link {
@@ -78,6 +78,13 @@ body .card-group {
     border-radius: 5px;
   }
 }
+body h1 {
+  color: white;
+  font-family: "Needlework Perfect";
+  font-size: 60px;
+  text-align: center;
+  margin: 1em;
+}
 body h2 {
   color: white;
   font-family: "Needlework Perfect";
@@ -85,6 +92,11 @@ body h2 {
   margin: 1em;
 }
 @media (max-width: 560px) {
+  body h1 {
+    color: white;
+    font-family: "Needlework Perfect";
+    font-size: 30px;
+  }
   body h2 {
     color: white;
     font-family: "Needlework Perfect";
@@ -97,6 +109,11 @@ body h2 {
   }
 }
 @media (max-width: 246px) {
+  body h1 {
+    color: white;
+    font-family: "Needlework Perfect";
+    font-size: 15px;
+  }
   body h2 {
     color: white;
     font-family: "Needlework Perfect";
@@ -116,6 +133,8 @@ body #ubicacion {
 }
 body #red {
   padding: 1rem;
+  max-width: 200px;
+  height: 300px;
 }
 body .carousel-inner {
   background-color: #D8B6A4;
@@ -133,9 +152,14 @@ body form {
   border-radius: 5px;
 }
 body footer {
-  background-color: black;
-  padding: 2vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
   color: white;
+  background-color: black;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
