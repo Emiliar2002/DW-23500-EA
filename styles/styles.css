@@ -65,17 +65,20 @@ body .card-group {
   padding: 1rem;
 }
 @media (max-width: 896px) {
-  body .navbar-brand, body .nav-link {
-    display: none;
-  }
-  body #hamburguesa {
-    display: block;
+  body .nav {
+    display: flex;
+    flex-direction: column;
   }
   body #pedir {
     color: white;
     font-family: "Needlework Perfect";
     font-size: 25px;
     border-radius: 5px;
+  }
+}
+@media (max-width: 596px) {
+  body .navbar-brand {
+    display: none;
   }
 }
 body h1 {

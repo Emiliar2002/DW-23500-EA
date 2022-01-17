@@ -102,22 +102,24 @@ body{
     //MEDIA QUERIES
 
     @media (max-width: 896px){
-
-        .navbar-brand, .nav-link{
-        display: none;
-        }
-
-        #hamburguesa{
-            display: block;
+        .nav{
+            display: flex;
+            flex-direction: column;
         }
 
         #pedir{
             @include needlework(25px);
             border-radius: 5px;
         }
-
+    
     }
 
+
+    @media (max-width: 596px){
+        .navbar-brand{
+            display: none;
+        }
+    }
     //TITULOS
 
     h1{
