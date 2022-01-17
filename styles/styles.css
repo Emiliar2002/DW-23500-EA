@@ -16,12 +16,6 @@ body .whatsappFlotante img {
   width: 60px;
   height: 60px;
 }
-body #hamburguesa {
-  display: none;
-  width: 25px;
-  height: 30px;
-  margin: 15px;
-}
 body nav {
   background-color: black;
   padding: 1rem;
